@@ -1,0 +1,18 @@
+.timezone{
+    width:60px;
+    height: 35px;
+    outline: solid black 2px;
+    text-align: center;
+    padding-top: 14px;
+    display: inline-block;
+    margin-right: 40px;
+}
+.yellow{
+    background-color: yellow;
+}
+.center{
+    text-align: center;
+}
+.left{
+    margin-left: 140px;
+}

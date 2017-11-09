@@ -1,0 +1,11 @@
+<h1 [ngClass]="{'center':true}">US Time Zone Display</h1>
+<div [ngClass]="{'timezone':true, 'yellow':num==1, 'left':true}" (click)="num=1">PST</div>
+<div [ngClass]="{'timezone':true, 'yellow':num==2}"(click)="num=2">MST</div>
+<div [ngClass]="{'timezone':true, 'yellow':num==3}"(click)="num=3">CST</div>
+<div [ngClass]="{'timezone':true, 'yellow':num==4}"(click)="num=4">EST</div>
+<div [ngClass]="{'timezone':true}"(click)="num=5">Clear</div>
+<p *ngIf="num==1" [ngClass]="{'center':true}">{{PST}}</p>
+<p *ngIf="num==2" [ngClass]="{'center':true}">{{MST}}</p>
+<p *ngIf="num==3" [ngClass]="{'center':true}">{{CST}}</p>
+
+<p *ngIf="num==4" [ngClass]="{'center':true}">{{EST}}</p>
